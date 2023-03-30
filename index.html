@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html leng="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website responsivo Coffee Shop</title>
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- custom css file link/ link arquivo css de estilização -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <!-- header section starts/início da sessão cabeçalho -->
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produtos</a>
+        <a href="#review">Comentários</a>
+        <a href="#contact">Contato</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="procure aqui...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>Item do carrinho 01</h3>
+                <div class="price">R$75,90</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>Item do carrinho 02</h3>
+                <div class="price">R$55,90</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>Item do carrinho 03</h3>
+                <div class="price">R$60,90</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>Item do carrinho 04</h3>
+                <div class="price">R$75,90</div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">Confirmar pedido</a>
+        
+    </div>
+</header>
+
+    <!-- header section ends/fim da sessão cabeçalho -->
+
+    <!-- home section starts/início da sessão home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Café fresco pela manhã</h3>
+            <p>Que tal começar o dia com uma xícara de café fresco e delicioso? Isso faz toda diferença, não é mesmo?</p>
+
+            <p>Para os amantes de café o dia só começa depois de uma boa xícara de café, ou caneca se você apreciar 
+               uma boa quantidade também. Nossa loja possui os mais variados tipos de grãos e que são moídos na ora. 
+               Visite-nos hoje mesmo e experimente o que de melhor o café pode oferecer!</p>
+            <a href="#" class="btn">Pegue o seu agora!</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends/fim da sessão home -->
+
+    <!-- about section starts/início da sessão sobre -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>Sobre</span> nós </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>O que faz nosso café especial?</h3>
+                <p>Nossa loja oferece uma variedade de grãos de café de alta qualidade, 
+                    moídos na ora para garantir o melhor sabor e aroma. O processo de 
+                    produção do nosso café especial é cuidadoso e tem controle de qualidade 
+                    rigoroso, garantindo que cada xícara tenha um sabor e aroma únicos e complexos.</p>
+ 
+                <p>Também dispomos de embalagens, para aqueles que se apegarem e quiserem ter o gostinho do 
+                    nosso café em suas casas. Todos embalados com muito carinho, pois a alegria ao tomar um 
+                    bom café é o que nos inspira, é o que nos motiva, e por isso tudo é feito com qualidade e 
+                    carinho, do plantio até a xícara.</p>
+
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+
+        </div>
+
+    </section>    
+
+    <!-- about section ends/fim da sessão sobre-->
+    
+    <!-- menu section ends/início da sessão menu-->
+
+    <section class="menu" id="menu">
+        <h1 class="heading"> Nosso <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>Café Latte</h3>
+                <div class="price">R$15,90 <span>25,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>Mocaccino Latte</h3>
+                <div class="price">R$15,90 <span>25,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3>Mocaccino</h3>
+                <div class="price">R$19,90 <span>29,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>Moca</h3>
+                <div class="price">R$22,90 <span>32,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>Cappuccino</h3>
+                <div class="price">R$17,90 <span>27,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="">
+                <h3>Expresso</h3>
+                <div class="price">R$12,90 <span>22,90</span></div>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends/fim da sessão menu-->
+
+    <!-- products section starts/início da sessão produtos-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> Nossos <span>produtos</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nicarágua</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$55,90 <span>65,90</span></div>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Columbia</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$55,90 <span>65,90</span></div>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Peru</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$55,90 <span>65,90</span></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>    
+
+    <!-- products section ends/fim da sessão produtos-->
+
+    <!-- review section stats/início da ressão revisão -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>comentários</span></h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Local incrível e café maravilhoso, sem falar no atendimento. IMPECÁVEL! Recomendo fortemente!.</p>
+                <img src="images/pic-1.png" alt="" class="user">
+                <h3>Fernando Gomes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Sou apaixonada por facé. Se eu pudesse viveria nessa loja. Tudo incrível! Eu amei!</p>
+                <img src="images/pic-2.png" alt="" class="user">
+                <h3>Larissa Ferreira</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Depois de uma manhã estressante, fui tomar um café na Cafena. Só de entrar já fiquei estasiado com o lugar. LINDO DEMAIS! Quando o café chegou, com aquele odor incrível já me senti melhor. Gostei tanto do sabor que pedi outro pra viagem, haha.</p>
+                <img src="images/pic-3.png" alt="" class="user">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- review section ends/fim da ressão revisão -->
+
+    <!-- contact section stats/início da sessão contato -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> Entre em <span>contato</span> </h1>
+
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14703.
+            644571898893!2d-43.304825919897866!3d-22.879740610407634!2m3!1f0!2f0!3f0!
+            3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997cf97cbc015d%3A0x7dd6ddc297dbefd0!2s
+            Pilares%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1679929129105
+            !5m2!1spt-BR!2sbr" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">\
+                <h3>Entre em contato</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="nome">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="número">
+                </div>
+                <input type="submit" value="Contate agora" class="btn">
+            </form>
+
+        </div>
+    </section>
+    <!-- contact section ends/fim da sessão contact -->
+
+    <!-- blogs section starts/início sessão blogs -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Nossos <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Sobre café e vida</a>
+                    <span>Pelo admin / 23 de março de 2023</span>
+                    <p>Benefícios do café. Iremos abordar sobre as qualidades que as propriedades do café têm a nos oferecer.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Tipos de café</a>
+                    <span>Pelo admin / 24 de março de 2023</span>
+                    <p>Existem diversos tipos de café, mas nem todos são tão difundidos. 
+                        Neste blog, iremos apresentar os mais variádos tipos, torras e características de cada um.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/coffee.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Café moído ou solúvel?</a>
+                    <span>Pelo admin / 25 de março de 2023</span>
+                    <p>Neste blog você encontrará informações sobre qual o melhor para qual momento.</p>
+                    <a href="#" class="btn">Saiba mais</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends/fim sessão blogs -->
+
+    <!-- footer section starts/início sessão rodapé -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://www.pinterest.com" target="_blank" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Produtos</a>
+            <a href="#review">Comentários</a>
+            <a href="#contact">Contato</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="credit">Criado por <span>Luan Aleixo</span> | todos os direitos reservados</div>
+
+    </section>
+
+    <!-- footer section ends/fim sessão rodapé -->
+
+
+    <!-- custom js file link/link de arquivo js de customização -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
